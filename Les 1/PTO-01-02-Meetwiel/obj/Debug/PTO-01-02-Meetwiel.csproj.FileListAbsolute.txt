@@ -1,0 +1,21 @@
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\bin\Debug\PTO-01-02-Meetwiel.exe.config
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\bin\Debug\PTO-01-02-Meetwiel.exe
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\bin\Debug\PTO-01-02-Meetwiel.pdb
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel.csprojAssemblyReference.cache
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\MainWindow.g.cs
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\App.g.cs
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel_MarkupCompile.cache
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel_MarkupCompile.lref
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\MainWindow.baml
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel.g.resources
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\PTO_01_02_Meetwiel.Properties.Resources.resources
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel.csproj.GenerateResource.cache
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel.exe
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Les1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel.pdb
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel.csprojAssemblyReference.cache
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-01-02-Meetwiel\obj\Debug\MainWindow.g.cs
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-01-02-Meetwiel\obj\Debug\App.g.cs
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel_MarkupCompile.cache
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel_MarkupCompile.lref
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel.exe
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-01-02-Meetwiel\obj\Debug\PTO-01-02-Meetwiel.pdb
