@@ -1,0 +1,14 @@
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\bin\Debug\PTO-02-01-Politicus.exe.config
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\bin\Debug\PTO-02-01-Politicus.exe
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\bin\Debug\PTO-02-01-Politicus.pdb
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\PTO-02-01-Politicus.csprojAssemblyReference.cache
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\MainWindow.g.cs
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\App.g.cs
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\PTO-02-01-Politicus_MarkupCompile.cache
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\PTO-02-01-Politicus_MarkupCompile.lref
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\MainWindow.baml
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\PTO-02-01-Politicus.g.resources
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\PTO_02_01_Politicus.Properties.Resources.resources
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\PTO-02-01-Politicus.csproj.GenerateResource.cache
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\PTO-02-01-Politicus.exe
+C:\Users\Maxim\Documents\GitHub\PTO-01-01-MaximLejaeghere\Programeertechnieken-en-ontwerpen\Les 1\PTO-02-01-Politicus\obj\Debug\PTO-02-01-Politicus.pdb

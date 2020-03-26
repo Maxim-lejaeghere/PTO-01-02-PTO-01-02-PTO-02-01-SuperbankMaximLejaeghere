@@ -29,7 +29,7 @@ namespace Wpf_stap_1
 
         private void btnTekenen_Click(object sender, RoutedEventArgs e)
         {
-            Ellipse ellips1 = new Ellipse();
+            //Ellipse ellips1 = new Ellipse();
             ellips1.Width = 100;
             ellips1.Height = 50;
             ellips1.Stroke = new SolidColorBrush(Colors.Black);
@@ -67,7 +67,8 @@ namespace Wpf_stap_1
             breedte = breedte + 50;
         }
 
-        private void verplaatsenMor (int position) {
+        private void verplaatsenMor (int position) 
+        {
             Ellipse ellips1 = (Ellipse)canvasTekenen.Children[canvasTekenen.Children.Count - 1];
             MessageBox.Show((canvasTekenen.Children.Count - 1).ToString());
             ellips1.Margin = new Thickness(position + ellips1.Margin.Left, 0, 0, 0);
