@@ -44,19 +44,19 @@ namespace PTO_02_01_Politicus
 
         private void comboPoliticus_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-                foreach (Politicus politicus in PoliticusList)
-                {
-                    string selectedPol = ($"{politicus._Voornaam} {politicus._Achternaam} {politicus._Partij}");
-                    string selectedItem = comboPoliticus.SelectedItem.ToString();
+            foreach (Politicus politicus in PoliticusList)
+            {
+                string selectedPol = ($"{politicus._Voornaam} {politicus._Achternaam} {politicus._Partij}");
+                string selectedItem = comboPoliticus.SelectedItem.ToString();
 
-                    if ( selectedPol == selectedItem )
-                    {
-                        txtVoornaam.Text = politicus._Voornaam;
-                        txtAchternaam.Text = politicus._Achternaam;
-                        txtPartij.Text = politicus._Partij;
-                        txtVoorkeurstemmen.Text = Convert.ToString(politicus._VoorkeurStemmen);
-                    }
-                
+                if (selectedPol == selectedItem)
+                {
+                    txtVoornaam.Text = politicus._Voornaam;
+                    txtAchternaam.Text = politicus._Achternaam;
+                    txtPartij.Text = politicus._Partij;
+                    txtVoorkeurstemmen.Text = Convert.ToString(politicus._VoorkeurStemmen);
+                }
+
             }
         }
     }
