@@ -13,8 +13,9 @@ namespace PTO_02_01_Politicus
         public string _Partij { get; set; }
         public int _VoorkeurStemmen { get; set; }
         public string _Geslacht { get; set; }
+        public object SelectedItem { get; set; }
 
-        
+
         public Politicus(string Voornaam, string Achternaam, string Partij, int Voorkeurstemmen, string Geslacht)
         {
             _Voornaam = Voornaam;

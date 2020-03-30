@@ -20,7 +20,7 @@ namespace PTO_02_01_Politicus
     /// </summary>
     public partial class MainWindow : Window
     {
-        Politicus politicus1 = new Politicus();
+        Politicus NewPol = new Politicus();
         List<Politicus> PoliticusList = new List<Politicus>();
         
 
@@ -28,29 +28,36 @@ namespace PTO_02_01_Politicus
         {
 
             InitializeComponent();
-            Politicus initialPoliticus = new Politicus("Magie", "De Block", "Open VLD", 120, "Vrouw");
-            PoliticusList.Add(initialPoliticus);
-            comboPoliticus.Items.Add($"{initialPoliticus._Voornaam} {initialPoliticus._Achternaam} {initialPoliticus._Partij}");
+            NewPol = new Politicus("Magie", "De Block", "Open VLD", 120, "Vrouw");
+            PoliticusList.Add(NewPol);
+            comboPoliticus.Items.Add($"{NewPol._Voornaam} {NewPol._Achternaam} {NewPol._Partij}");
 
         }
         
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // Creating and setting the properties of comboBox 
-            //string Voornaam, string Achternaam, string Partij, int Voorkeurstemmen, string Geslacht
-            politicus1._VoorkeurStemmen = Convert.ToInt32(txtVoorkeurstemmen.Text);
-            politicus1._Voornaam = txtVoornaam.Text;
-            politicus1._Geslacht = comboGeslacht.Text;
-            politicus1._Achternaam = txtAchternaam.Text;
-            politicus1._Partij = txtPartij.Text;
-            Politicus NewPoliticus = new Politicus(politicus1._Voornaam, politicus1._Achternaam, politicus1._Partij, politicus1._VoorkeurStemmen, politicus1._Geslacht);
-            PoliticusList.Add(NewPoliticus);
-            comboPoliticus.Items.Add($"{politicus1._Voornaam} {politicus1._Achternaam} {politicus1._Partij}");
+            NewPol = new Politicus() { _Voornaam = txtVoornaam.Text, _Achternaam = txtAchternaam.Text, _Partij = txtPartij.Text, _VoorkeurStemmen = Convert.ToInt32(txtVoorkeurstemmen.Text), _Geslacht = comboGeslacht.Text };
+            PoliticusList.Add(NewPol);
+            comboPoliticus.Items.Add($"{NewPol._Voornaam} {NewPol._Achternaam} {NewPol._Partij}");
         }
 
         private void comboPoliticus_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+                foreach (Politicus politicus in PoliticusList)
+                {
+                    string selectedPol = ($"{politicus._Voornaam} {politicus._Achternaam} {politicus._Partij}");
+                    string selectedItem = comboPoliticus.SelectedItem.ToString();
 
+                    if ( selectedPol == selectedItem )
+                    {
+                        txtVoornaam.Text = politicus._Voornaam;
+                        txtAchternaam.Text = politicus._Achternaam;
+                        txtPartij.Text = politicus._Partij;
+                        txtVoorkeurstemmen.Text = Convert.ToString(politicus._VoorkeurStemmen);
+                    }
+                
+            }
         }
     }
 }

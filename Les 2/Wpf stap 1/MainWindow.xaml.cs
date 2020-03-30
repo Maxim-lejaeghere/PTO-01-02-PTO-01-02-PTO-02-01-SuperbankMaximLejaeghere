@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Wpf_stap_1
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         private int x = 50;
@@ -27,53 +25,80 @@ namespace Wpf_stap_1
             InitializeComponent();
         }
 
-        private void btnTekenen_Click(object sender, RoutedEventArgs e)
+        private void buttonTekenen_Click(object sender, RoutedEventArgs e)
         {
-            //Ellipse ellips1 = new Ellipse();
-            ellips1.Width = 100;
-            ellips1.Height = 50;
-            ellips1.Stroke = new SolidColorBrush(Colors.Black);
-            canvasTekenen.Children.Add(ellips1);
+            //Ellipse ellipse1 = new Ellipse();
+            Balloon ellipse1 = new Balloon();
+            Balloon ellipse2 = new Balloon(50, 100);
+            //Hoogte als parameter. De breedte staat ingegeven in de derde constructor
+            Balloon ellipse3 = new Balloon(70);
+
+
+            //DisplayON
+            ellipse1.DisplayOn(canvasTekenen);
+            ellipse2.DisplayOn(canvasTekenen);
+            ellipse3.DisplayOn(canvasTekenen);
+
+            //UpdateBalloon
+
+            //inkleuren van de ballon. Methode werd aangeroepen vanuit de klasse Balloon
+            ellipse1.inkleuren();
         }
 
-        private void btnVerplaatsen_Click(object sender, RoutedEventArgs e)
+        private void buttonVerplaatsen_Click(object sender, RoutedEventArgs e)
         {
-            //Ellipse ellips1 = new Ellipse();
-            //ellips1.Width = 100;
-            //ellips1.Height = 50;
-            //ellips1.Stroke = new SolidColorBrush(Colors.Black);
-            //ellips1.Margin = new Thickness(x, 0, 0, 0);
-            //canvasTekenen.Children.Add(ellips1);
 
-            //x = x + 50;
-
-            verplaatsenMor(50);
+            VerplaatsenHor(50);
         }
 
-        private void btnClearCanvas_Click(object sender, RoutedEventArgs e)
+        private void buttonClear_Click(object sender, RoutedEventArgs e)
         {
             canvasTekenen.Children.Clear();
         }
 
-        private void btnVergroten_Click(object sender, RoutedEventArgs e)
+        private void buttonVergroten_Click(object sender, RoutedEventArgs e)
         {
-            Ellipse ellips1 = new Ellipse();
-            ellips1.Width = breedte;
-            ellips1.Height = 50;
-            ellips1.Stroke = new SolidColorBrush(Colors.Black);
-            ellips1.Margin = new Thickness(x, 0, 0, 0);
-            canvasTekenen.Children.Add(ellips1);
+            Ellipse ellipse1 = new Ellipse();
+            ellipse1.Width = breedte;
+            ellipse1.Height = 50;
+            ellipse1.Stroke = new SolidColorBrush(Colors.Black);
+            ellipse1.Margin = new Thickness(0, 0, 0, 0);
+            canvasTekenen.Children.Add(ellipse1);
 
-            breedte = breedte + 50;
+            breedte = breedte + 100;
         }
 
-        private void verplaatsenMor (int position) 
+        private void buttonBreedte_Click(object sender, RoutedEventArgs e)
         {
-            Ellipse ellips1 = (Ellipse)canvasTekenen.Children[canvasTekenen.Children.Count - 1];
-            MessageBox.Show((canvasTekenen.Children.Count - 1).ToString());
-            ellips1.Margin = new Thickness(position + ellips1.Margin.Left, 0, 0, 0);
+            Ellipse ellipse1 = new Ellipse();
+            ellipse1.Width = 100;
+            ellipse1.Height = 50;
+            ellipse1.Stroke = new SolidColorBrush(Colors.Black);
+            ellipse1.Margin = new Thickness(0, 0, 0, 0);
+            
+
+        }
+
+        // Functie dat de ellipse verplaatst zonder te verdubbelen. 
+        // Wordt aangeroepen wanneer men op de knop verplaatsen duwt
+        private void VerplaatsenHor(int position)
+        {
+            Ellipse ellipse1 = (Ellipse)canvasTekenen.Children[canvasTekenen.Children.Count - 1];
+            //MessageBox.Show((canvasTekenen.Children.Count - 1).ToString());
+            ellipse1.Margin = new Thickness(position + ellipse1.Margin.Left, 0, 0, 0);
             canvasTekenen.UpdateLayout();
-
         }
+
+       
+
+        private void ChangeWidth(int width)
+        {
+            Ellipse ellipse1 = (Ellipse)canvasTekenen.Children[canvasTekenen.Children.Count - 1];
+            ellipse1.Width = ellipse1.Width + width;
+            canvasTekenen.UpdateLayout();
+        }
+
+
+       
     }
 }
