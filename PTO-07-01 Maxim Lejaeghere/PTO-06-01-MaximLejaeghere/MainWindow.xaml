@@ -1,0 +1,40 @@
+﻿<Window x:Class="PTO_06_01_MaximLejaeghere.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PTO_06_01_MaximLejaeghere"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    
+
+        
+           
+       
+    <Grid RenderTransformOrigin="0.496,0.493" Background="AliceBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.75*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name ="txtInputPrijs" FontSize="20"  Grid.Row="0" Grid.Column="1" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Background="WhiteSmoke" Height="35" Width="250"/>
+        <Label Grid.Row="0" Grid.Column="0" HorizontalContentAlignment="Right" Content="Prijs rekening:" VerticalContentAlignment= "Center" FontSize="20" Padding="15"/>
+        <Label Name ="lblFooi" FontSize="20"  Grid.Row="2" Grid.Column="1" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Background="AliceBlue" Height="35" Width="250"/>
+        <Label Name ="lblTotaal" FontSize="20"  Grid.Row="3" Grid.Column="1" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Background="AliceBlue" Height="35" Width="250"/>
+        <Label Grid.Row="2" Grid.Column="0" HorizontalContentAlignment="Right" Content="Fooi:" VerticalContentAlignment= "Center" FontSize="20" Padding="15"/>
+        <Label Grid.Row="3" Grid.Column="0" HorizontalContentAlignment="Right" Content="Totale prijs:" VerticalContentAlignment= "Center" FontSize="20" Padding="15"/>
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+        <Slider Name ="sliderPercent" x:FieldModifier="public" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Foreground="Black" VerticalAlignment="Center" Margin="30,0,30,0" Minimum="0" Maximum="30" TickFrequency="5" TickPlacement="TopLeft" Cursor="Hand" AutoToolTipPlacement="BottomRight" />
+        <Button Name="btnBerekenen" Grid.Row="4" Grid.Column="1" Content="Berekenen" Height="35" Width="200" FontSize="20" Foreground="White" Background="DarkBlue" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="btnBerekenen_Click"/>
+        
+    </Grid>
+    
+    
+</Window>

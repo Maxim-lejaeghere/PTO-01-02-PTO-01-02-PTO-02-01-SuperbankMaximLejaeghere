@@ -8,15 +8,15 @@ namespace PTO_02_01_Politicus
 {
     class Politicus
     {
-        public string _Voornaam = "";
-        public string _Achternaam = "";
-        public string _Partij = "";
-        public int _VoorkeurStemmen = 0;
-        public string _Geslacht = "";
-        public object SelectedItem = "";
-        public string selectedPol = "";
+        public string _Voornaam {get; set;}
+        public string _Achternaam {get; set;}
+        public string _Partij  {get; set;}
+        public int _VoorkeurStemmen {get; set;}
+        public string _Geslacht { get; set; }
+        public object SelectedItem {get; set;}
+        public string selectedPol {get; set;}
 
-
+        //constructor
         public Politicus(string Voornaam, string Achternaam, string Partij, int Voorkeurstemmen, string Geslacht)
         {
             _Voornaam = Voornaam;
